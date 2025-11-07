@@ -11,7 +11,7 @@ import react from '@vitejs/plugin-react';
 //
 export default defineConfig({
   plugins: [react()],
-  typescriptbase: '/Menumatch/', // Replace with YOUR repo name
+  base: '/Menumatchtest/', // Replace with YOUR repo name
   build: {
     outDir: 'dist',
     assetsDir: 'assets',
